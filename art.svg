@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="6629" viewBox="0 0 1440 6629" fill="none">
+<g clip-path="url(#clip0_168_174)">
+<rect width="1440" height="6629" fill="white" />
+<rect x="140" y="5634" width="560" height="460" fill="#F6F6F6" />
+<rect x="140" y="5634" width="560" height="460" fill="url(#pattern0_168_174)" />
+<rect x="140" y="5634" width="560" height="460" fill="black" fill-opacity="0.5" />
+<rect x="740" y="1002" width="560" height="632" fill="url(#pattern2_168_174)" />
+<rect x="140" y="1428" width="260" height="207" fill="url(#pattern3_168_174)" />
+<rect x="140" y="3615" width="260" height="207" fill="url(#pattern4_168_174)" />
+<rect x="440" y="1428" width="260" height="207" fill="url(#pattern5_168_174)" />
+<rect x="440" y="3615" width="260" height="351" fill="url(#pattern6_168_174)" />
+<rect x="140" y="2340" width="560" height="288" fill="url(#pattern7_168_174)" />
+<rect x="140" y="2340" width="560" height="288" fill="black" fill-opacity="0.5" />
+<rect x="140" y="1873" width="560" height="427" fill="url(#pattern8_168_174)" />
+<rect x="140" y="1873" width="560" height="427" fill="black" fill-opacity="0.4" />
+<rect x="740" y="2204" width="560" height="424" fill="url(#pattern9_168_174)" />
+<rect x="740" y="2204" width="560" height="424" fill="black" fill-opacity="0.5" />
+<rect x="740" y="1873" width="560" height="291" fill="url(#pattern10_168_174)" />
+<rect x="740" y="1873" width="560" height="291" fill="black" fill-opacity="0.5" />
+<rect x="140" y="2866" width="560" height="511" fill="#F6F6F6" />
+<rect x="740" y="5634" width="560" height="460" fill="#F6F6F6" />
+<rect y="6244" width="1440" height="385" fill="#F6F6F6" />
+<rect x="740" y="2866" width="560" height="511" fill="#F6F6F6" />
+<rect x="740" y="4314" width="260" height="223" fill="url(#pattern11_168_174)" />
+<rect x="740" y="4006" width="560" height="268" fill="url(#pattern12_168_174)" />
+<rect x="140" y="4577" width="560" height="399" fill="url(#pattern13_168_174)" />
+<rect x="740" y="5016" width="260" height="275" fill="url(#pattern14_168_174)" />
+<rect x="1040" y="5016" width="260" height="275" fill="url(#pattern15_168_174)" />
+<mask id="path-73-inside-1_168_174" fill="white">
+<path d="M770 5779H1200V5835H770V5779Z" />
+</mask>
+
+<mask id="path-76-inside-2_168_174" fill="white">
+<path d="M770 5855H1200V5911H770V5855Z" />
+</mask>
+
+
+<mask id="path-83-inside-3_168_174" fill="white">
+<path d="M770 5779H1200V5835H770V5779Z" />
+</mask>
+
+<mask id="path-86-inside-4_168_174" fill="white">
+<path d="M770 5855H1200V5911H770V5855Z" />
+</mask>
+
+
+<path d="M297.3 6050.2C292.308 6050.2 288.247 6046.14 288.246 6041.15C288.247 6039.89 289.278 6038.86 290.54 6038.86C290.67 6038.86 290.798 6038.87 290.921 6038.89C291.192 6038.93 291.449 6039.03 291.685 6039.16C291.719 6039.18 291.743 6039.22 291.748 6039.26L292.275 6042.58C292.282 6042.62 292.27 6042.66 292.244 6042.69C291.953 6043.01 291.581 6043.24 291.167 6043.36L290.968 6043.41L291.043 6043.61C291.723 6045.34 293.109 6046.72 294.843 6047.41L295.036 6047.48L295.092 6047.28C295.208 6046.87 295.44 6046.5 295.762 6046.21C295.786 6046.18 295.817 6046.17 295.849 6046.17C295.855 6046.17 295.862 6046.17 295.87 6046.17L299.195 6046.7C299.234 6046.71 299.267 6046.73 299.288 6046.76C299.424 6047 299.516 6047.26 299.562 6047.53C299.584 6047.65 299.594 6047.78 299.594 6047.91C299.594 6049.17 298.565 6050.2 297.3 6050.2Z" fill="white" />
+<path d="M306.152 6043.4C305.883 6040.36 304.489 6037.54 302.228 6035.46C299.953 6033.37 297.001 6032.21 293.915 6032.21C287.14 6032.21 281.628 6037.72 281.628 6044.5C281.628 6046.77 282.256 6048.99 283.443 6050.92L280.795 6056.78L289.273 6055.88C290.747 6056.48 292.308 6056.79 293.913 6056.79C294.336 6056.79 294.769 6056.76 295.203 6056.72C295.586 6056.68 295.972 6056.62 296.352 6056.54C302.025 6055.39 306.167 6050.36 306.2 6044.56V6044.5C306.2 6044.13 306.183 6043.76 306.15 6043.4L306.152 6043.4ZM289.6 6053.3L284.909 6053.8L286.31 6050.7L286.029 6050.32C286.009 6050.3 285.988 6050.27 285.965 6050.24C284.749 6048.56 284.107 6046.57 284.107 6044.5C284.107 6039.09 288.507 6034.69 293.915 6034.69C298.981 6034.69 303.276 6038.65 303.69 6043.69C303.712 6043.96 303.724 6044.23 303.724 6044.5C303.724 6044.58 303.722 6044.65 303.721 6044.73C303.617 6049.26 300.457 6053.1 296.035 6054.08C295.698 6054.15 295.352 6054.21 295.008 6054.25C294.65 6054.29 294.282 6054.31 293.917 6054.31C292.618 6054.31 291.356 6054.06 290.163 6053.56C290.03 6053.51 289.9 6053.45 289.779 6053.39L289.601 6053.31L289.6 6053.3Z" fill="white" />
+<path d="M177.387 6043.84C177.442 6043.81 177.496 6043.78 177.55 6043.76C178.476 6043.33 179.415 6042.93 180.352 6042.53C180.403 6042.53 180.487 6042.47 180.535 6042.45C180.607 6042.42 180.68 6042.39 180.752 6042.36C180.892 6042.3 181.031 6042.24 181.169 6042.18C181.448 6042.06 181.725 6041.94 182.004 6041.82L183.672 6041.11C184.784 6040.63 185.898 6040.15 187.01 6039.68C188.122 6039.2 189.236 6038.72 190.348 6038.25C191.46 6037.77 192.574 6037.3 193.686 6036.82C194.799 6036.35 195.912 6035.87 197.024 6035.39C197.272 6035.29 197.539 6035.13 197.805 6035.08C198.027 6035.04 198.244 6034.97 198.469 6034.92C198.893 6034.84 199.362 6034.81 199.769 6034.99C199.91 6035.05 200.04 6035.13 200.148 6035.24C200.664 6035.75 200.592 6036.59 200.483 6037.31C199.721 6042.32 198.96 6047.33 198.198 6052.34C198.094 6053.03 197.952 6053.78 197.41 6054.22C196.951 6054.58 196.297 6054.62 195.73 6054.47C195.163 6054.31 194.663 6053.98 194.173 6053.66C192.138 6052.31 190.102 6050.96 188.068 6049.62C187.584 6049.3 187.046 6048.88 187.051 6048.3C187.054 6047.95 187.263 6047.64 187.476 6047.36C189.244 6045.05 191.795 6043.47 193.693 6041.27C193.961 6040.96 194.171 6040.4 193.804 6040.22C193.585 6040.11 193.334 6040.26 193.134 6040.39C190.626 6042.14 188.118 6043.88 185.61 6045.62C184.791 6046.19 183.933 6046.78 182.947 6046.91C182.064 6047.04 181.176 6046.79 180.322 6046.54C179.606 6046.33 178.891 6046.12 178.179 6045.89C177.801 6045.78 177.41 6045.65 177.118 6045.38C176.825 6045.12 176.657 6044.67 176.834 6044.31C176.944 6044.09 177.159 6043.95 177.384 6043.84L177.387 6043.84Z" fill="white" />
+<path d="M253.78 6040.46C253.626 6038.98 253.296 6037.34 252.081 6036.48C251.139 6035.81 249.902 6035.79 248.747 6035.79C246.305 6035.79 243.862 6035.79 241.42 6035.8C239.071 6035.8 236.723 6035.8 234.374 6035.8C233.393 6035.8 232.439 6035.73 231.528 6036.15C230.746 6036.52 230.133 6037.21 229.765 6037.98C229.254 6039.05 229.147 6040.27 229.085 6041.46C228.971 6043.62 228.984 6045.78 229.119 6047.94C229.219 6049.52 229.473 6051.26 230.691 6052.26C231.771 6053.15 233.294 6053.2 234.695 6053.2C239.14 6053.2 243.586 6053.21 248.033 6053.21C248.603 6053.21 249.198 6053.2 249.779 6053.14C250.921 6053.01 252.011 6052.69 252.745 6051.84C253.486 6050.99 253.677 6049.8 253.789 6048.67C254.063 6045.94 254.061 6043.19 253.78 6040.46ZM238.849 6048.33V6040.67L245.476 6044.5L238.849 6048.33Z" fill="white" />
+</g>
+<defs>
+<pattern id="pattern0_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_168_174" transform="matrix(0.000493944 0 0 0.000601323 -0.11743 0)" />
+</pattern>
+<pattern id="pattern1_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_168_174" transform="matrix(0.00040016 0 0 0.000765246 0 -0.0379682)" />
+</pattern>
+<pattern id="pattern2_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image2_168_174" transform="matrix(0.00060024 0 0 0.000531858 0 -0.164557)" />
+</pattern>
+<pattern id="pattern3_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image3_168_174" transform="matrix(0.000477883 0 0 0.00060024 -0.0971154 0)" />
+</pattern>
+<pattern id="pattern4_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image3_168_174" transform="matrix(0.000477883 0 0 0.00060024 -0.0971154 0)" />
+</pattern>
+<pattern id="pattern5_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image4_168_174" transform="matrix(0.000477883 0 0 0.00060024 -0.0971154 0)" />
+</pattern>
+<pattern id="pattern6_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image4_168_174" transform="matrix(0.000810324 0 0 0.00060024 -0.5125 0)" />
+</pattern>
+<pattern id="pattern7_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image5_168_174" transform="matrix(0.00040016 0 0 0.000778089 0 -0.148148)" />
+</pattern>
+<pattern id="pattern8_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image4_168_174" transform="matrix(0.000457683 0 0 0.00060024 -0.071875 0)" />
+</pattern>
+<pattern id="pattern9_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_168_174" transform="matrix(0.000455287 0 0 0.000601323 -0.0691092 0)" />
+</pattern>
+<pattern id="pattern10_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_168_174" transform="matrix(0.00040016 0 0 0.000770067 0 -0.0413574)" />
+</pattern>
+<pattern id="pattern11_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image6_168_174" transform="matrix(0.00059988 0 0 0.000699412 0 -0.374265)" />
+</pattern>
+<pattern id="pattern12_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image5_168_174" transform="matrix(0.00040016 0 0 0.000836155 0 -0.196517)" />
+</pattern>
+<pattern id="pattern13_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image7_168_174" transform="matrix(0.000427158 0 0 0.00059952 -0.0337343 0)" />
+</pattern>
+<pattern id="pattern14_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image8_168_174" transform="matrix(0.000634869 0 0 0.00060024 -0.293269 0)" />
+</pattern>
+<pattern id="pattern15_168_174" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image9_168_174" transform="matrix(0.000634869 0 0 0.00060024 -0.293269 0)" />
+</pattern>
+<linearGradient id="paint0_linear_168_174" x1="720" y1="0" x2="720" y2="753" gradientUnits="userSpaceOnUse">
+<stop stop-color="#666666" stop-opacity="0" />
+<stop offset="0.936534" />
+</linearGradient>
+<clipPath id="clip0_168_174">
+<rect width="1440" height="6629" fill="white" />
+</clipPath>
+<image id="image0_168_174" width="2500" height="1663" preserveAspectRatio="none" xlink:href="photo-0.jpg" />
+<image id="image1_168_174" width="2499" height="1406" preserveAspectRatio="none" xlink:href="photo-1.jpg" />
+<image id="image2_168_174" width="1666" height="2499" preserveAspectRatio="none" xlink:href="photo-2.jpg" />
+<image id="image3_168_174" width="2499" height="1666" preserveAspectRatio="none" xlink:href="photo-3.jpg" />
+<image id="image4_168_174" width="2499" height="1666" preserveAspectRatio="none" xlink:href="photo-4.jpg" />
+<image id="image5_168_174" width="2499" height="1666" preserveAspectRatio="none" xlink:href="photo-5.jpg" />
+<image id="image6_168_174" width="1667" height="2500" preserveAspectRatio="none" xlink:href="photo-6.jpg" />
+<image id="image7_168_174" width="2499" height="1668" preserveAspectRatio="none" xlink:href="photo-7.jpg" />
+<image id="image8_168_174" width="2499" height="1666" preserveAspectRatio="none" xlink:href="photo-8.jpg" />
+<image id="image9_168_174" width="2499" height="1666" preserveAspectRatio="none" xlink:href="photo-9.jpg" />
+</defs>
+</svg>
