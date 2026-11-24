@@ -1,6 +1,7 @@
 @font-face{font-family:Inter;src:url('inter.ttf')}
+@font-face{font-family:"Inter Text";src:url('inter-regular.woff2') format('woff2');font-weight:400;font-display:swap}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;scrollbar-gutter:stable}
 body{margin:0;background:white}
 main{position:relative;width:1440px;height:6629px;margin:auto;overflow:hidden}
 .art{position:absolute;inset:0;width:1440px;height:6629px;pointer-events:none}
@@ -68,23 +69,40 @@ a.copy:hover { opacity:.72; }
 .booking-form .result { margin:0;font-size:14px; }
 .booking-form .result a { text-decoration:underline; }
 
+.advantage-title,.advantage-description { font-synthesis:none;-webkit-font-smoothing:antialiased; }
+.advantage-description { color:rgb(255 255 255 / 80%);font-family:"Inter Text",Inter,Arial,sans-serif;font-weight:400; }
 .anchor,.flight-section { scroll-margin-top:78px; }
+.desktop-header { position:absolute;inset:0 0 auto;z-index:1;color:white; }
+.desktop-nav-frame { max-width:1440px;margin-inline:auto; }
+.flight-nav {
+  width:1160px;margin-inline-start:140px;min-height:92px;
+  display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:64px;
+  font:16px Inter,Arial,sans-serif;
+}
+.flight-nav div { display:flex;align-items:center;gap:42px; }
+.flight-nav .site-brand { font-size:20px;justify-self:start; }
+.nav-phone { justify-self:end;white-space:nowrap; }
+.flight-nav a,.flight-drawer a,.contact-card a { transition:opacity .18s ease; }
+@media(hover:hover) {
+  .flight-nav a:hover,.flight-drawer a:hover,.contact-card a:hover { opacity:.72; }
+}
 .flight-sticky {
   position:fixed;inset:0 0 auto;z-index:10;background:white;border-bottom:1px solid #b7b7b7;
   visibility:hidden;opacity:0;transform:translateY(-12px);
   transition:opacity .24s ease,transform .24s ease,visibility .24s;
 }
 .flight-sticky.is-visible { visibility:visible;opacity:1;transform:none; }
-.flight-sticky nav { max-width:1316px;min-height:72px;margin:auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;font:16px Inter,Arial,sans-serif; }
-.flight-sticky nav div { display:flex;align-items:center;gap:42px; }
-.flight-sticky a:hover { opacity:.65; }
+.flight-sticky .flight-nav { min-height:72px; }
 .site-brand { font-weight:bold; }
-.compact-layout { display:none; }
+.compact-layout,.flight-drawer { display:none; }
 
 @media(max-width:1439px) {
   body { background:white; }
-  .desktop-layout,.hero-image,.flight-sticky { display:none; }
+  .desktop-layout,.desktop-header,.hero-image,.flight-sticky { display:none; }
+  :root { --compact-gutter:clamp(20px,6vw,72px); }
+  html:has(.flight-drawer[open]) { overflow:hidden;scrollbar-gutter:auto; }
   .compact-layout { display:block;width:auto;height:auto;overflow:visible;font:16px/1.55 Inter,Arial,sans-serif;color:#030303; }
+  .compact-grid,.flight-section { width:min(100%,1240px);margin-inline:auto;padding-inline:var(--compact-gutter); }
   .compact-layout h1,.compact-layout h2,.compact-layout h3 { font:400 1em/1.1 "Roboto Condensed",Arial,sans-serif;margin:0 0 .55em; }
   .compact-layout h1 { font-size:clamp(42px,7vw,70px); }
   .compact-layout h2 { font-size:clamp(32px,4.5vw,52px); }
@@ -96,20 +114,20 @@ a.copy:hover { opacity:.72; }
     background-image:linear-gradient(#0004,#0008),url('photo-1.jpg');
     background-position:center;background-size:cover;
   }
-  .compact-hero>div { width:min(100%,1240px);margin:auto auto 0;padding:110px clamp(20px,6vw,72px) 9svh; }
+  .hero-content { padding-block:110px 9svh; }
   .compact-hero .pill { background:white;color:#030303; }
   .compact-hero .pill:hover,.compact-hero .pill:focus-visible { background:#030303;color:white; }
-  .compact-hero header { position:fixed;z-index:9;inset:0 0 auto;display:flex;align-items:center;justify-content:space-between;padding:8px clamp(20px,6vw,72px);min-height:64px;transition:background .24s,color .24s;border-bottom:1px solid transparent; }
-  .compact-hero header.is-scrolled,.compact-hero header:has(nav:not([hidden])) { color:#030303;background:#fff;border-color:#b7b7b7; }
-  .compact-hero nav { position:absolute;inset:100% 0 auto;display:grid;background:white;color:#030303;padding:12px clamp(20px,6vw,72px) 20px;border-bottom:1px solid #b7b7b7; }
-  .compact-hero nav[hidden] { display:none; }
-  @media(prefers-reduced-motion:no-preference) {
-    .compact-hero nav:not([hidden]) { animation:appear .24s ease-out; }
+  .compact-hero header { position:fixed;z-index:9;inset:0 0 auto;transition:background .24s,color .24s;border-bottom:1px solid transparent; }
+  .compact-hero header.is-scrolled { color:#030303;background:#fff;border-color:#b7b7b7; }
+  .compact-nav,.drawer-header { display:flex;align-items:center;justify-content:space-between; }
+  .compact-nav { min-height:63px; }
+  .menu-toggle,.drawer-close {
+    display:grid;place-content:center;gap:6px;width:44px;height:44px;
+    padding:0;border:0;background:none;color:inherit;cursor:pointer;
   }
-  .compact-hero nav a { padding:10px 0; }
-  .menu-toggle { display:grid;place-content:center;gap:6px;width:44px;height:44px;border:0;background:none;color:inherit;cursor:pointer; }
   .menu-toggle span { display:block;width:24px;height:1px;background:currentColor; }
-  .flight-section { max-width:1240px;margin:auto;padding:clamp(32px,6vw,78px) clamp(20px,6vw,72px); }
+  .flight-section { --section-padding:clamp(32px,6vw,78px);padding-block:var(--section-padding); }
+  #small-about { padding-block-start:calc(2 * var(--section-padding)); }
   .about-grid,.photo-grid { display:grid;gap:16px;grid-template-columns:repeat(2,minmax(0,1fr)); }
   .photo-grid img,.about-grid>img { width:100%;height:100%;object-fit:cover;display:block; }
   .about-grid .photo-grid img { aspect-ratio:4/3; }
@@ -117,22 +135,52 @@ a.copy:hover { opacity:.72; }
   .advantages article,.contact-card { position:relative;display:grid;align-items:start;isolation:isolate;min-height:250px;padding:24px;color:white;background:#223448; }
   .advantages img,.contact-card img { position:absolute;inset:0;z-index:-2; }
   .advantages article::before,.contact-card::before { content:'';position:absolute;inset:0;z-index:-1;background:#0008; }
+  .compact-layout .advantage-title { font-weight:400; }
   .plans article,.contact-form { background:#f6f6f6;padding:clamp(20px,4vw,44px); }
   .plans article { display:flex;flex-direction:column;align-items:start; }
   .plans .pill { margin-top:auto; }
   .flight-gallery img { aspect-ratio:4/3; }
-  .contact-card a,.compact-footer a:hover { text-decoration:underline; }
+  .compact-footer a:hover { text-decoration:underline; }
   .compact-layout .booking-form { position:static;translate:none;width:auto; }
   .compact-layout .booking-form .pill { width:auto;height:auto;padding:12px 22px; }
-  .compact-footer { display:grid;gap:18px;padding:36px clamp(20px,6vw,72px);background:#f6f6f6; }
+  .compact-footer { background:#f6f6f6; }
+  .compact-footer .compact-grid { display:grid;gap:18px;padding-block:36px; }
   .compact-footer nav { display:flex;flex-wrap:wrap;gap:12px 20px; }
-  dialog { max-height:calc(100dvh - 32px);padding:clamp(18px,5vw,36px); }
-  dialog .close { width:44px;height:44px;top:4px;right:4px; }
+  .booking-dialog { max-height:calc(100dvh - 32px);padding:clamp(18px,5vw,36px); }
+  .booking-dialog .close { width:44px;height:44px;top:4px;right:4px; }
+  .flight-drawer {
+    position:fixed;inset:0 0 0 auto;margin:0;width:min(480px,65vw);max-width:none;
+    height:100%;height:100dvh;max-height:none;overflow:auto;overscroll-behavior:contain;
+    padding:16px var(--compact-gutter) max(28px,env(safe-area-inset-bottom));
+    border-radius:0;background:#191919;color:white;
+  }
+  .flight-drawer[open] { display:flex;flex-direction:column;gap:24px; }
+  .flight-drawer .site-brand { font-size:22px; }
+  .flight-drawer a { text-decoration:none; }
+  .drawer-close { position:relative; }
+  .drawer-close::before,.drawer-close::after {
+    content:'';position:absolute;top:50%;left:calc(50% - 12px);width:24px;height:2px;
+    background:currentColor;rotate:45deg;
+  }
+  .drawer-close::after { rotate:-45deg; }
+  .flight-drawer nav { display:grid;font-size:20px; }
+  .flight-drawer nav a { display:block;padding:7px 0;font-family:"Inter Text",Inter,Arial,sans-serif; }
+  .drawer-actions { display:grid;gap:16px;margin-top:auto;padding-top:16px; }
+  .drawer-actions .nav-phone { font-size:20px; }
+  .drawer-actions .pill { background:white;color:#030303; }
+  .drawer-actions .pill:hover,.drawer-actions .pill:focus-visible { background:#dcdcdc; }
+  @media(prefers-reduced-motion:no-preference) {
+    .flight-drawer[open] { animation:drawer-enter .25s ease-out; }
+    @keyframes drawer-enter { from { transform:translateX(100%); } }
+  }
 }
 @media(max-width:650px) {
   .about-grid,.advantages,.plans,.contact-grid { grid-template-columns:1fr; }
   .advantages article,.contact-card { min-height:215px; }
+  .compact-layout .advantage-title { margin-bottom:20px; }
   .about-grid>img { max-height:360px; }
+  .compact-footer .site-brand { font:400 34px/1.1 "Roboto Condensed",Arial,sans-serif;justify-self:start; }
+  .flight-drawer { width:100%; }
 }
 @media(min-width:950px) and (max-width:1439px) {
   .flight-gallery { grid-template-columns:repeat(3,minmax(0,1fr)); }
