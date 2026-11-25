@@ -79,10 +79,10 @@ a.copy:hover { opacity:.72; }
 .desktop-nav-frame { max-width:1440px;margin-inline:auto; }
 .flight-nav {
   width:1160px;margin-inline-start:140px;min-height:92px;
-  display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:64px;
+  display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:60px;
   font:16px Inter,Arial,sans-serif;
 }
-.flight-nav div { display:flex;align-items:center;gap:42px; }
+.flight-nav div { display:flex;align-items:center;gap:60px; }
 .flight-nav .site-brand { font-size:20px;justify-self:start; }
 .nav-phone { justify-self:end;white-space:nowrap; }
 .flight-nav a,.flight-drawer a,.contact-card a { transition:opacity .18s ease; }
@@ -223,3 +223,5 @@ a.copy:hover { opacity:.72; }
 @media(prefers-reduced-motion:reduce) {
   .flight-sticky,.mobile-header { transition:none; }
 }
+
+.booking-dialog input[type="checkbox"] { accent-color:#030303; }

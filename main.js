@@ -74,3 +74,19 @@ function currentAnchor() {
 addEventListener('hashchange', currentAnchor);
 compactScreen.addEventListener('change', currentAnchor);
 currentAnchor();
+
+if (window.IntersectionObserver && window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+  const revealText = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      revealText.unobserve(entry.target);
+      if (!window.matchMedia('(prefers-reduced-motion: no-preference)').matches) continue;
+      entry.target.animate(
+        [{ opacity: 0, transform: 'translateY(14px)' }, { opacity: 1, transform: 'translateY(0)' }],
+        { duration: 420, easing: 'ease-out' }
+      );
+    }
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.desktop-layout h1, .desktop-layout h2, .desktop-layout p.copy, .compact-layout h1, .compact-layout h2, .compact-layout h3, .compact-layout section p')
+    .forEach(text => revealText.observe(text));
+}
