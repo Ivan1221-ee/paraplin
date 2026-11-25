@@ -12,7 +12,7 @@ a{color:inherit;text-decoration:none}
 @font-face{font-family:"Roboto Condensed";src:url("roboto-condensed.ttf");font-weight:400}
 
 :root { --hero-height: 100svh; --hero-offset: calc(var(--hero-height) - 753px); }
-.desktop-layout { position:relative;width:1440px;max-width:100%;height:calc(6244px + var(--hero-offset));margin:auto;overflow:hidden; }
+.desktop-layout { position:relative;width:1440px;max-width:100%;height:calc(6244px + var(--hero-offset));margin:auto;overflow:clip; }
 .hero-image { position:absolute; inset:0 0 auto; width:100%; height:var(--hero-height); pointer-events:none; }
 .art { top:var(--hero-offset); clip-path:inset(753px 0 0); }
 .body-copy,.anchor,.booking-form { translate:0 var(--hero-offset); }
