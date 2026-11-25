@@ -98,9 +98,9 @@ a.copy:hover { opacity:.72; }
 .flight-sticky .flight-nav,.document .flight-nav { min-height:72px; }
 .site-brand { font-weight:bold; }
 .site-footer { background:#f6f6f6;color:#030303;font:16px/1.5 Inter,Arial,sans-serif; }
-.desktop-footer { max-width:1440px;min-height:385px;margin-inline:auto; }
+.desktop-footer { max-width:1440px;min-height:359px;margin-inline:auto; }
 .desktop-footer-grid {
-  width:1160px;margin-inline-start:140px;padding-block:54px 88px;display:grid;
+  width:1160px;margin-inline-start:140px;padding-block:54px 62px;display:grid;
   grid-template-columns:600px minmax(0,1fr) auto;grid-template-rows:188px auto;align-items:start;
 }
 .desktop-footer .site-brand {
